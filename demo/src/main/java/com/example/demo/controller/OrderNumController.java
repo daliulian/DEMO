@@ -16,6 +16,7 @@ public class OrderNumController {
 	@RequestMapping("orderNum")
 	public String getOrderNum() {
 		String orderNum= OrderNumService.getOrderNum();
+		String iTalkToYou = "daliulian shitouzhu er wo kanshangle zhetouzhu";
 		return orderNum;
 	}
 	
