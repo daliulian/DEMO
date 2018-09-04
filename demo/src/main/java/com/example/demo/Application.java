@@ -20,7 +20,7 @@ public class Application {
     @Autowired
     TestService testService;
 
-    
+
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
