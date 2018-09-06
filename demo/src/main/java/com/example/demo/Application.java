@@ -28,7 +28,6 @@ public class Application {
     @RequestMapping("/hello")
     public String hello() {
         List<TestUserEntity> list = testService.queryUsers();
-
         System.out.println(list.size());
         return "Hello";
 
