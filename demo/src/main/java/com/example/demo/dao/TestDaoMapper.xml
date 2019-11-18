@@ -1,15 +1,16 @@
+<!--
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.demo.dao.TestDaoMapper">
 
-	<!-- 通用查询映射结果 -->
+	&lt;!&ndash; 通用查询映射结果 &ndash;&gt;
 	<resultMap id="BaseResultMap" type="com.example.demo.entity.TestUserEntity">
 		<id column="id" property="utt_id" />
 		<result column="name" property="name" />
 		<result column="age" property="age" />
 	</resultMap>
 
-    <!-- 通用查询结果列 -->
+    &lt;!&ndash; 通用查询结果列 &ndash;&gt;
     <sql id="Base_Column_List">
 		utt_id
 	</sql>
@@ -29,3 +30,4 @@
 	</select>
 
 </mapper>
+-->
